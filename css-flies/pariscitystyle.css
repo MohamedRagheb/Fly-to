@@ -1,0 +1,238 @@
+body{
+    overflow-x: hidden;
+    scrollbar-width: 2px;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.pic-sliderconti{
+    background-color: rgba(126, 125, 125, 0.254);
+    height: 400px;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    top: 9vh;
+    padding:1vw;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+
+}
+.city-info{
+    background-color:rgba(126, 125, 125, 0.254) ;
+    height: 70px;
+    width: 70vw;
+    left: 15vw;
+    margin-top: 75px;
+    position: relative;
+    padding-top: 8px;
+    padding: 15px;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.city-info h3.city-name{
+    margin-top: -10px;
+  
+}
+.city-info h4.location ,.city-info h4.curn-lan{
+    margin-top: -9px;
+    color: gray;
+}
+.stars{
+    float: right;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.pic{
+    height: 380px;
+    position:absolute ;
+    overflow: hidden;
+    
+}
+.pic img{
+   width:49%;
+   height: 180px;
+   margin-bottom: 10px;
+   position: relative;
+   top: 0px;
+  
+  
+}
+
+.topsection {
+    margin-bottom: 35px;
+}
+.hotels{
+    position: relative;
+    left: 14vw;
+    
+}
+h2.main-text{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 25px;
+}
+.hotelslider{
+    height: 300px;
+    width: 70vw;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    overflow-y:hidden;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    padding-bottom: 25px;
+    padding: 10px;
+  
+}
+.hotelslider::-webkit-scrollbar{
+    display: none;
+}
+.hotelslider > .hotel{
+    scroll-snap-align:start ;
+}
+.hotel img{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.hotel .info{
+    width: 300px;
+    height: 60px;
+    position:relative;
+    top:5px;
+    background-color:rgba(126, 125, 125, 0.254) ;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 8px;
+}
+.hotels .info h4{
+    font-size: 20px;
+}
+.hotel .hotel-stars{
+    margin-top: -10px;
+}
+.hotel .info .rightarrow{
+    float: right;
+    margin-right: 15px;
+    position:relative;
+   margin-top: -35px;
+    text-decoration: none;
+}
+.hotel .info .rightarrow i{
+    color: black;
+}
+.cityrev{
+    height: 210px;
+    width: 70vw;
+    margin-left: 14vw;
+    padding: 1px;
+    margin-bottom: 57px;
+
+
+}
+.cityrev .continer{
+    background-color: rgba(128, 128, 128, 0.456);
+    height: 120px;
+    width: 70vw;
+    margin-top: 3px;
+    border-radius: 15px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    overflow-y:hidden;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+
+}
+.cityrev .continer::-webkit-scrollbar{
+    display: none;
+}
+.cityrev .continer > .rev{
+    scroll-snap-align:start 
+}
+.rev{
+    height: 100px;
+    width: 100px;
+    padding: 8px;
+    margin-right: 55px;
+    padding-left: 18px;
+    display: inline-block;
+  
+   
+}
+.rev img{
+    height:80px;
+    width: 80px;
+    border-radius:360px;
+}
+.starss{
+    margin-left: 6px;
+}
+.places{
+    margin-left: 14vw;
+}
+.places .places-slider{
+    background-color: rgba(128, 128, 128, 0.672);
+    height: 300px;
+    width: 70vw;
+    border-radius: 15px;
+    padding-top:21px;
+    padding-left: 45px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 25px;
+    overflow-y:hidden;
+    overscroll-behavior-x:contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    margin-bottom: 70px;
+    
+}
+.places-slider > .place{
+    scroll-snap-align: start;
+}
+.places .places-slider::-webkit-scrollbar{
+    display: none;
+}
+
+.places .places-slider .place img{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    
+}
+.info{
+    background-color:#939090c3;
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    padding-bottom:0px;
+    padding-top:5px;
+    position:relative;
+    top:5px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+.info h4{
+    font-size: 20px;
+}
+.info .place-stars{
+    margin-top: -27px;
+    position: relative;
+    float: right;
+}
+.info .activ h6{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(52, 47, 47, 0.764);
+
+}

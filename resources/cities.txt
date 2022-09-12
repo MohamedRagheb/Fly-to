@@ -1,0 +1,71 @@
+Europa
+******countries*******
+ France
+******cities**********
+Paris
+Nice
+Lyon
+Bordeaux
+ Marseilles
+Lille
+//*************//
+Sweden
+********cities********
+Stockholm
+Gothenburg
+Malmo
+Helsingborg
+Lund
+Visby
+//*************//
+Switzerland
+*********cities********
+Zurich
+Geneva
+Lucerne
+Basel
+Bern
+Chur
+//*************//
+Greece
+********cities*******
+Athens
+Thessaloniki
+Chania
+Nafplio
+Heraklion
+Rhodes Town
+//**************//
+/*************/
+Asia
+********countries********
+Maldives
+Oman
+Vietnam
+Jordan
+Indonesia
+/***************/
+Afric
+********countries********
+SOUTH AFRICA
+EGYPT
+TANZANIA
+ZAMBIA
+KENYA
+/*****************/
+South America
+********countries********
+CHILE
+ARGENTINA
+BRAZIL
+COLOMBIA
+/****************/
+Noth America
+********countries********
+Usa
+Canada
+Panama
+ Greenland
+Mexico
+/*************/
+

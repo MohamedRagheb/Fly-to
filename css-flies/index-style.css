@@ -1,0 +1,185 @@
+.conti{
+    
+    margin-top: 12vh;
+    padding-left: 7vw;
+    height: 75vh;
+    
+}
+.conti .leftsection{
+    height: 85%;
+    width: 45%;
+    position: relative;
+    top: 8%;
+    padding-top: 12vh;
+    padding-left: 10vw;
+    padding-right: 13vw;
+    grid-area: left;
+  
+}
+.conti .leftsection h1{
+    font-size: 75px;
+    font-family: Microsoft Himalaya;
+}
+.leftsection .isection{
+    float: right;
+    margin-top: -8vh;
+    margin-left: -29px;
+}
+.conti .rightsection{
+    background-color: transparent;
+    height: 85%;
+    width: 45%;
+    position: relative;
+    top: 20px;
+    left: 60% ;
+    margin-top: -34%;
+    margin-right: 20px;
+    border-left: 3px solid gray;
+    padding: 15px;
+    grid: right;
+}
+.rightsection .main {
+    height: 90%;
+    width: 60%;
+    background-color: #D9D9D9;
+    position: relative;
+    top: 25px;
+    left: 130px;
+    border-radius: 15px;
+    padding:10px;
+}
+.rightsection .main img{
+    width: 50%;
+}
+.input{
+    position: relative;
+    left: 25px;
+    margin-top: -9px;
+    width: 85%;
+    height: 42px;
+    padding-left: 45px;
+    margin-bottom: 36px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-color: #AAAAAA;
+   
+}
+.input:focus{
+   outline: none;
+}
+.main #icon{
+   position: absolute;
+   left: 43px;
+   z-index: 1;
+}
+#btn{
+    width: 50%;
+    height: 45px;
+    border-radius: 10px;
+    background-color: #008000d5;
+    margin-top: 15px;
+    border:2px solid transparent;
+}
+.btn1:focus{
+    outline: none;
+}
+.alart{
+   
+    height: 35px;
+}
+           /*mobile*/
+@media screen and (max-width:850px){
+   .conti{
+   
+    width: 100vw;
+    margin:0  0 0 0 ;
+    height: 120vh;
+    overflow: hidden;
+    padding-bottom:25px ;
+   }
+   .leftsection {
+    position: relative;
+    top: 2px;
+    width: fit-content;
+    display: inline;
+    height:10%;
+   }
+   .leftsection h1{
+    position: relative;
+    top: 5px;
+   }
+   .leftsection .isection{
+    position: relative;
+    right: 55px;
+   }
+   .conti .rightsection{
+   display: inline;
+   left: 0vw;
+   width: 100%;
+    border-left:3px solid transparent;
+    margin-top: 150px;
+  
+
+   }
+   .conti .rightsection .main{
+    left: 5vw;
+    width: 90%;
+    max-width: 450px;
+    height: 550px;
+    border-top:3px solid gray;
+    
+   }
+   .conti .rightsection .main .btn1{
+    text-decoration: none;
+   }
+}
+           /******/
+@media screen and (max-width:1100px){
+    .conti{
+   
+        width: 100vw;
+        margin:0  0 0 0 ;
+        height: 120vh;
+        overflow: hidden;
+        padding-bottom:25px ;
+       }
+       .leftsection {
+        position: relative;
+        top: 2px;
+        width: fit-content;
+        display: inline;
+        height:10%;
+       }
+       .leftsection h1{
+        position: relative;
+        top: 5px;
+       }
+       .leftsection .isection{
+        position: relative;
+        right: 55px;
+       }
+       .conti .rightsection{
+       display: inline;
+       left: 0vw;
+       width: 100%;
+        border-left:3px solid transparent;
+        margin-top: 150px;
+      
+    
+       }
+       .conti .rightsection .main{
+        left: 11vw;
+        top: 15vh;
+        width: 90%;
+        max-width: 450px;
+        height: 550px;
+        border-top:3px solid gray;
+        
+       }
+       .conti .rightsection .main .btn1{
+        text-decoration: none;
+       }
+}
+@media screen and (max-width:1400px){
+
+}

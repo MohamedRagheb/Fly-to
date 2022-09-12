@@ -1,0 +1,34 @@
+*{
+    padding-left:75px;
+}
+.left-arr-png{
+    height:65vh;
+    width: 45vw;
+}
+.text{
+    margin-left: -27px
+}
+.rotate-arr{
+    display: none;
+}
+@media screen and (max-width:933px) {
+    .left-arr-png{
+        display: none;
+    }
+    .rotate-arr{
+            display: block;
+            height:40vh;
+            width: auto;
+            position:fixed;
+            top: 8vh;
+            right: 0.5vw;
+        margin-right:3vw ;
+    }
+    *{
+        padding:9px;
+    }
+    .text{
+        position:fixed;
+        bottom: 40vh;
+    }
+}

@@ -1,0 +1,168 @@
+*{
+padding-left:25px;
+padding-top:12px;
+overflow: hidden;
+scroll-behavior: smooth;
+text-decoration: none;
+
+}
+body{
+    grid-template-areas: 
+    'up up up '
+    'dwn dwn dwn '
+    'dwn dwn dwn ' ;
+    z-index: 1;
+   
+}
+h1{
+    font-size:60px;
+    font-weight: 500;
+    overflow: hidden;
+ 
+}
+.topsection p{
+    font-size: 22px;
+    opacity: 0.6;
+}
+.topsection{
+    grid-area:up;
+    z-index: 2;
+}
+.dwonsection{
+    grid-area:dwn;
+   overflow-y: scroll;
+    display: grid;
+    width:96%;
+    height: 60vh;
+    background-color:rgba(115, 114, 114, 0.08);
+    margin-top:6vh;
+    padding-top: 40px;
+    padding-right:55px;
+    padding-left:6vw;
+    text-align: center;
+    grid-template-columns: 312px 312px;
+    column-gap: 14vw;
+    border-radius: 15px;
+    z-index: 2;
+    margin-left:3vw;
+    min-width: 400px;
+  
+  
+}
+.dwonsection::-webkit-scrollbar{
+    display: none;
+
+}
+
+.city{
+   
+    height: 194px;
+    width: 321px;
+    margin-bottom: 50px;
+    border: 5px black solid;
+    border-bottom-left-radius: 21px;
+    border-top-left-radius: 21px;
+    border-bottom-right-radius: 18px;   
+    border-top-right-radius: 18px;
+    position: relative;
+    padding: 3px;
+}
+@media screen and  (max-width:850px){
+   .dwonsection{
+    grid-template-columns: 312px;
+    text-align: center;
+    width:92vw;
+    overflow-x: hidden;
+    padding: 12vw;
+   margin-left: -9vw;
+
+   }
+   
+  
+}
+@media screen and  (max-width:1000px){
+    .dwonsection{
+        margin-left: -80px;
+        width: 890px;
+        padding-left:78px ;
+    }
+}
+
+
+@media screen and  (max-width:500px){
+    .dwonsection{
+        margin-left: -60px;
+        min-width: 100%;
+        width: 400px;
+        justify-content: flex-start;
+        padding-left:60px;
+        overflow: scroll;
+    }
+    
+}
+.picbox{
+    width: 308px;
+    height: 120px;
+    padding: 0px;
+}
+.picbox img{
+    height: 132px;
+    width: 310px;
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    padding: 0px;
+
+}
+.infobox{
+    background-color: rgba(255, 255, 255, 0.322);
+    width: 313px;
+    height: 52px;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 18px;
+    position:absolute;
+    left: 0px;
+    bottom: 0px;
+    padding: 3px;
+    justify-content:flex-start;
+
+}
+.infobox .city-nam font{
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    padding:0px;
+    font: bold;
+
+}
+
+.city-nam{
+    width:139px;
+    height: 44px;
+    justify-content: center;
+    margin-top: -11px;
+    margin-left: -8px;
+}
+.infobox  a{
+    height: 55px;
+    width: 92px;
+    position:absolute;
+    top: 1px;
+    right: 22px;
+    float: right;
+    margin-top: -9px;
+    text-decoration: none;
+    border-radius: 105px;
+    justify-content: center;
+
+}
+.infobox  a i{
+    color: black;
+    height: 99px;
+    width: 99px;
+  
+}
+.infobox a i:hover{
+    border: 5px black solid;
+    
+}

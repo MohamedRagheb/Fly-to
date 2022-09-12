@@ -1,0 +1,39 @@
+Europa
+******countries*******
+ France
+Sweden
+Switzerland
+Greece
+/*************/
+Asia
+********countries********
+Maldives
+Oman
+Vietnam
+Jordan
+Indonesia
+/***************/
+Afric
+********countries********
+SOUTH AFRICA
+EGYPT
+TANZANIA
+ZAMBIA
+KENYA
+/*****************/
+South America
+********countries********
+CHILE
+ARGENTINA
+BRAZIL
+COLOMBIA
+/****************/
+Noth America
+********countries********
+Usa
+Canada
+Panama
+ Greenland
+Mexico
+/*************/
+

@@ -13,4 +13,13 @@ function ggd(){
     }
 }
 
-    
+    function ggd(){
+ user.defaultvalue = "admin"
+ pass.defaultvalue = "admin"
+    if(user.defaultvalue == user.value && pass.defaultvalue == pass.value){
+        window.location.href = "../main files/html-files/mainpage.html"
+    }else{
+        alart.innerHTML = "Wrong username or Password"
+    }
+}
+
